@@ -23,10 +23,11 @@ And to set up them in your environment path.
 ## Run tests
 For running, different way :
 
-* With gradle
+* **With gradle, this way will generate the errors stated in the issue.**
 ```
 > gradle clean test aggregate
 ```
+
 
 * From the IDE, right click on the runners class (empty class extending SerenityStory)
    
