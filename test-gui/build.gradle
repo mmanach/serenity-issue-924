@@ -27,7 +27,7 @@ buildscript {
 
 dependencies {
 
-    def serenityVersion = '1.5.9'
+    def serenityVersion = '1.5.11'
 
     compile group: 'junit', name: 'junit', version: '4.12'
 
@@ -37,7 +37,7 @@ dependencies {
     // https://mvnrepository.com/artifact/net.serenity-bdd/serenity-gradle-plugin
     compile "net.serenity-bdd:serenity-gradle-plugin:$serenityVersion"
 
-    compile group: 'net.serenity-bdd', name: 'serenity-jbehave', version: '1.27.0'
+    compile group: 'net.serenity-bdd', name: 'serenity-jbehave', version: '1.28.0'
 
     // https://mvnrepository.com/artifact/org.slf4j/slf4j-api
     compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.25'
